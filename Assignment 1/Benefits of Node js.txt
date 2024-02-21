@@ -1,0 +1,11 @@
+**Benefits of nodejs**
+
+1. Easy Scalability
+2. Real-time web apps
+3. Advantage of caching
+4. Asynchronous and Non-Blocking
+5. Single Programming Language
+6. Fast Suite/performance
+7. Cross-platform Compatibility
+8. Large ecosystem (Vast collections)
+9. Error Handling
