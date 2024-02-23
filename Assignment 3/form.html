@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Registration Form</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+<h1>Registration Form</h1>
+<form name='registration'>
+  <label for="userid">User id:</label>
+  <input type="text" name="userid" required>
+  
+  <label for="passid">Password:</label>
+  <input type="password" name="passid" required>
+  
+  <label for="username">Name:</label>
+  <input type="text" name="username" required>
+  
+  <label for="address">Address:</label>
+  <input type="text" name="address" required>
+  
+  <label for="country">Country:</label>
+  <select name="country" required>
+    <option value="" disabled selected>(Please select a country)</option>
+    <option value="Australia">Australia</option>
+    <option value="Canada">Canada</option>
+    <option value="India">India</option>
+    <option value="Russia">Russia</option>
+    <option value="USA">USA</option>
+  </select>
+  
+  <label for="zip">ZIP Code:</label>
+  <input type="text" name="zip" required>
+  
+  <label for="email">Email:</label>
+  <input type="text" name="email" required>
+  
+  <label>Sex:</label>
+  <input type="radio" name="gender" value="Male" required>Male
+  <input type="radio" name="gender" value="Female" required>Female
+  
+  <label>Language:</label>
+  <input type="checkbox" name="language" value="English" checked>English
+  <input type="checkbox" name="language" value="NonEnglish">Non English
+  
+  <label for="desc">About:</label>
+  <textarea name="desc" id="desc" rows="4" required></textarea>
+  
+  <label for="image">Image:</label>
+  <input type="file" name="image">
+  
+  <label for="link">Link:</label>
+  <a href="https://github.com/shreyaaarao" id="link">Visit this link</a>
+  
+  <label for="video">Video:</label>
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <br> <br>
+  <input type="submit" name="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
