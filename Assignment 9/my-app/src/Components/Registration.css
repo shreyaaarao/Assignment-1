@@ -1,0 +1,38 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-input {
+    margin-bottom: 15px;
+  }
+  
+  .name-inputs {
+    display: flex;
+  }
+  
+  .name-inputs .form-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+  
+  }
+  
+  .link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
