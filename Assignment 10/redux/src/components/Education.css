@@ -1,0 +1,62 @@
+/* EducationDetails.css */
+
+.container {
+    max-width: 350px;
+    margin:auto;
+    padding: 20px;
+    border: 2px solid #ccc; /* Border color and width */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subject-container {
+    margin-bottom: 20px;
+  }
+  
+  .subject {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .details {
+    margin-left: 30px;
+  }
+  
+  .certifications {
+    margin-top: 30px;
+  }
+  
+  .certification-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    margin-top: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3;
+  }
+  
