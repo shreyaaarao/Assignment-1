@@ -1,0 +1,20 @@
+.container {
+    width: fit-content;
+    margin: 20px;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   margin-left: 500px;
+   background-color: bisque;
+  }
+  
+  .dashboard-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-item {
+    margin-bottom: 10px;
+  }
