@@ -1,20 +1,21 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './Profile.css'
+import { Link } from 'react-router-dom';
+import './Style.css'; 
 
-function Profile() {
-  const user = useSelector((state) => state.user);
+const Profile = () => {
+  const user = useSelector(state => state.user);
 
   return (
-    <div className='container'>
-      <h1>Profile</h1>
-      <h3>Personal Details:</h3>
-      <h5>Name: {user.name}</h5>
-      <h5>Country: {user.country}</h5>
-      <h5>Gender: {user.gender}</h5>
-      <h5>Permanent Account Number: {user.pan}</h5>
+    <div className="profile-container">
+      <h2>Personal Details</h2>
+      <div>Name: {user.name}</div>
+      <div>Country: {user.country}</div>
+      <div>Gender: {user.gender}</div>
+      <div>PAN: {user.pan}</div>
+      <Link to="/education">Education Details</Link>
     </div>
   );
-}
+};
 
 export default Profile;

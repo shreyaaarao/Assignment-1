@@ -1,18 +1,18 @@
 // Dashboard.js
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-
+import './Style.css';
 const Dashboard = () => {
-  const user = useSelector((state) => state.user);
+  const userName = useSelector(state => state.user.name);
+  console.log(userName);
+
+  
 
   return (
-    <div>
-     
-      <h1>Hello {user.name}</h1>
-      <Link to="/profile">Go to Profile</Link> <br></br> <br></br>
-      <Link to="/education-details">Go to Education Details</Link>
+    <div className='dashboard-container'>
+      <div className='dashboard-greeting'>Hello {userName}</div>
+      <Link to="/profile">Profile</Link>
     </div>
   );
 };

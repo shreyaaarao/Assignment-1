@@ -1,62 +1,42 @@
-/* EducationDetails.css */
-
 .container {
-    max-width: 350px;
-    margin:auto;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    border: 2px solid #ccc; /* Border color and width */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
   }
   
-  .header {
-    text-align: center;
+  h2 {
+    font-size: 24px;
     margin-bottom: 20px;
   }
   
-  .subject-container {
-    margin-bottom: 20px;
-  }
-  
-  .subject {
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .details {
-    margin-left: 30px;
-  }
-  
-  .certifications {
-    margin-top: 30px;
-  }
-  
-  .certification-item {
-    font-size: 16px;
+  h3 {
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
-  input[type="text"] {
-    width: 300px;
-    margin-top: 20px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+  ul {
+    list-style-type: none;
+    padding: 0;
   }
   
-  .add-btn {
-    margin-top: 10px;
-    padding: 8px 16px;
+  li {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
-    font-size: 16px;
     cursor: pointer;
   }
   
-  .add-btn:hover {
+  button:hover {
     background-color: #0056b3;
   }
   
